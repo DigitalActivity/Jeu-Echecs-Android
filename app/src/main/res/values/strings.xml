@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chess Mind</string>
+    <string name="go_back">&gt;&gt;</string>
+    <string name="go_forward">&lt;&lt;</string>
+    <string name="reset">Reset</string>
+    <string name="force_text_fr">Force</string>
+    <string name="main_activity_splash">splash_image</string>
+    <string name="partie_activity_logo_j1">image_j1</string>
+    <string name="partie_activity_logo_j2">image_j2</string>
+    <string name="partie_activity_logo_en_cours">image_prochain</string>
+    <string name="text_commencer_partie">Commencer partie</string>
+    <string name="text_en_echec">est en echec</string>
+    <string name="text_perdu_la_partie">a perdu la partie</string>
+    <string name="text_roi_blanc_echec_mat">Roi Blanc Echec Et Mat</string>
+    <string name="text_roi_noir_echec_mat">Roi Noir Echec Et Mat</string>
+    <string name="text_roi_noir_pat">Roi Noir en pat</string>
+    <string name="text_roi_blanc_pat">Roi Blanc en Pat</string>
+</resources>

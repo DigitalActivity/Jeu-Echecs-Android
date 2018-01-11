@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:maxWidth="@android:dimen/notification_large_icon_width"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingEnd="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingStart="2dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:contentDescription="@string/partie_activity_logo_j1"
+        android:id="@+id/imageview_logo_joueur1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo_blancs" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_forcej1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLength="15"
+            android:maxWidth="@android:dimen/notification_large_icon_width"
+            android:text="@string/force_text_fr" />
+
+        <TextView
+            android:id="@+id/textView_force_joueur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/partie_activity_logo_en_cours"
+        android:id="@+id/imageView_joueur_en_cours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_forcej2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLength="15"
+            android:maxWidth="@android:dimen/notification_large_icon_width"
+            android:text="@string/force_text_fr" />
+
+        <TextView
+            android:id="@+id/textView_force_joueur2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/partie_activity_logo_j2"
+        android:id="@+id/imageView_logo_joueur2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo_noirs" />
+
+</LinearLayout>
